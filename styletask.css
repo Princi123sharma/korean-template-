@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#box1{
+    height:150%;
+    width:100%;
+   
+    position: relative;
+}
+    #box2{
+        position: absolute;
+        top:8%;
+        left:10%;
+        height:80%;
+        width:80%;
+        background-color: #eaae79;
+        border-radius: 15px;
+        position: relative;
+        transition: all ease 3s;
+    }
+    #box2:hover{
+        scale:0.5;
+    }
+    #box3{
+        position: absolute;
+        top:5%;
+        left:5%;
+        background-color: black;
+        height:90%;
+        width:90%;
+        position: relative;
+        transition: all ease 1s;
+}
+#box3:hover{
+
+    scale:0.8;
+    transform: skew(10deg);
+}
+    
+  
+#elem{
+
+    
+    height: 250px;
+    width:400px;
+   object-fit: cover;
+   margin: 10px;
+  position: absolute;
+  left:60%;
+  top: 2%;
+  overflow: hidden;
+  border-radius: 15px;
+
+
+
+  cursor: pointer;
+
+
+}
+#elem1{
+
+   
+    height: 250px;
+    width:400px;
+   object-fit: cover;
+   overflow: hidden;
+
+    margin: 10px;
+    position: absolute;
+    left:60%;
+    top:34%;
+    border-radius: 15px;
+    cursor: pointer;
+
+
+
+
+}
+#elem2{
+
+    
+    height: 250px;
+    width:400px;
+   object-fit: cover;
+   overflow: hidden;
+    margin: 10px;
+   position: absolute;
+   left:60%;
+   top:66%;
+   border-radius: 15px;
+   cursor: pointer;
+
+
+}
+
+#outimg img{
+     height:250px;
+     width:250px;
+     border-radius: 50% 50% 50% 2%;
+     margin-left: 20px;
+     position: absolute;
+     left:10%;
+     top:10%;
+     transition: all ease 2s;
+}
+#outimg2 img{
+    height:250px;
+    width:250px;
+    border-radius: 50% 50% 2% 50%;
+    margin-left: 20px;
+    position: absolute;
+    top:55%;
+    left:30%;
+    transition: all ease 2s;
+}
+#outimg img:hover{
+    scale:1.1;
+}
+#outimg2 img:hover{
+    scale:1.1;
+}
+
+#box3 h1{
+    color:white;
+    position: absolute;
+    top:38%;
+    left:30%;
+    font-family: Darlington Demo;
+    font-size: 50px;
+}
+#box3 i{
+    color:white;
+    position: absolute;
+    left:48%;
+    top:5%;
+    font-size: 30px;
+}
+#box3 h2{
+    color:white;
+    position: absolute;
+    top:98%;
+    left:2%;
+    font-family: gilroy;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 15px;
+}
+.cover{
+    height: 250px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.412);
+   
+    bottom:-30%;
+    position: absolute;
+    transition: all ease 3s;
+}
+ #elem:hover .cover{
+    bottom:0%;
+
+}
+#elem1:hover .cover{
+    bottom:0%;
+    
+}
+#elem2:hover .cover{
+    bottom:0%;
+
+}
+.cover i{
+    color:white;
+    font-size: 5px;
+    font-weight: 200;
+}
